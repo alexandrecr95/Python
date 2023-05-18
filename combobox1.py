@@ -8,3 +8,8 @@ def on_select(event):
     
     #creating item object that handles value of selected_item
     selected_item = event.widget.get()
+    print("Selected Item:", selected_item)
+    
+#
+root = tk.Tk()
+root.title("Combobox Example")
